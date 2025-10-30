@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const telefone = document.getElementById("telefone");
     const cep = document.getElementById("cep");
 
+    const range = document.getElementById("disponibilidade");
+    const output = document.getElementById("disponibilidade-output");
+
     if (cpf) {
         cpf.addEventListener("input", () => {
             cpf.value = cpf.value
@@ -30,4 +33,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 .replace(/(\d{5})(\d{3})$/, "$1-$2");
         });
     }
+
+    if (range && output) {
+    // Atualiza ao carregar a página
+    output.textContent = `${range.value} horas`;
+
+    // Atualiza em tempo real conforme o usuário desliza
+    range.addEventListener("input", () => {
+        output.textContent = `${range.value} horas`;
+    });
+}
 });
