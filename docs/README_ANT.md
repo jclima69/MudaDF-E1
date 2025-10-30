@@ -5,6 +5,8 @@ Desenvolver uma plataforma web completa que permita às ONGs gerenciar projetos,
 
 ## 🚀 Tecnologias
 - HTML5 semântico  
+- CSS3 responsivo  
+- JavaScript (máscaras e validações)  
 - GitHub Pages
 
 ## 📂 Estrutura
