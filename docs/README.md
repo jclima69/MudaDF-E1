@@ -14,9 +14,14 @@ MudaDF-E1/
 ├── projetos.html
 ├── cadastro.html
 ├── css/
+│   └── styles.css
 ├── js/
+│   └── script.js
 ├── img/
+│   ├── logo.png
+│   ├── banner.jpg
 └── docs/
+    └── README.md
 ```
 
 ## ⚙️ Como Executar
