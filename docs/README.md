@@ -9,7 +9,7 @@ Desenvolver uma plataforma web completa que permita às ONGs gerenciar projetos,
 
 ## 📂 Estrutura
 ```
-meu-projeto/
+MudaDF-E1/
 ├── index.html
 ├── projetos.html
 ├── cadastro.html
